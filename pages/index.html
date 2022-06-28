@@ -25,7 +25,7 @@
 <body>
 
   <!-- HEADER -->
-  <header class="block w-100">
+  <header class="header">
     <div class="w-100">
       <div class="row">
         <div class="col-2 mt-3 mx-auto">
@@ -36,37 +36,22 @@
           </div>
         </div>
       </div>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class ="navbar-light navbar navbar-expand-lg navbar-dark justify-content-between">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
           <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
           <a class="nav-link" href="#">Quiénes somos<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
           <a class="nav-link" href="#">Aprende+<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Obtener Ayuda</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Noticias</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Donar</a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-3 nav-item">
-      <a href="https://google.com.ar" class="btn m-3 top-0 btn-primary btn-danger position-fixed ">Salida Rápida</a>
-    </div>
-  </nav>
-</header>
+        </nav>
+      </header>
+      <div class="col-4">
+        <a href="https://google.com.ar" class="btn font-weight-bold btn-danger px-3 py-3 position-fixed ">Salida Rápida</a>
+      </div>
 
   <main class="w-100 container">
     <div class="container">
@@ -202,34 +187,18 @@
   </aside>
 
 
-  <footer>
+  <footer class="bg-white p-5">
 
     <div>
 
       <div class="row">
 
-        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="mb-4">teléfonos útlies</h6>
-          <hr>
-          <a href="#" class="mt-3">+1364654644</a>
-        </div>
-
-        <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
-          <h6 class="mb-4">Síguenos en Redes</h6>
-          <hr class="mb-4">
-          <p>
-            <a href="#" class="">twitter</a>
-            <a href="#" class="">Instagram</a>
-            <a href="#" class="">fb</a>
-          </p>
-        </div>
-
-        <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
-          <h6 class="mb-4">Contacto</h6>
-          <hr class="mb-4">
-          <p>
-            <a href="#" class="">Contacto</a>
-          </p>
+        <h6 class="mb-4 text-transform-uppercase  text-lg-center">Síguenos en Redes</h6>
+        <div class="col-md-6 col-lg-3 d-flex justify-content-center col-xl-2 w-50 mx-auto mt-3">
+            <a href="#" class='link'><box-icon name='facebook' type='logo' ></box-icon></a>
+            <a href="#" class='link'><box-icon name='twitter' type='logo' ></box-icon></a>
+            <a href="#" class='link'><box-icon type='logo' name='instagram'></box-icon></a>
+            <a href="#" class='link'><box-icon name='youtube' type='logo' ></box-icon></a>
         </div>
 
       </div>
@@ -237,7 +206,7 @@
     </div>
 
   </footer>
-
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   <script src="https://kit.fontawesome.com/9602d00d4c.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">

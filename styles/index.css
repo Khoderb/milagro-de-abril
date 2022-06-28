@@ -1,3 +1,22 @@
 body {
-    background-color: #5EFCE8;
+    background-color: rgba(128, 128, 128, 0.149);
+}
+
+header{
+    width: 100%;
+}
+
+
+#navbarNav{
+    padding-left:26rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.link{
+    padding:0 .5rem;
+}
+.link:hover{
+    transform:scale(1.04)
 }
