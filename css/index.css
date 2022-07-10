@@ -13,7 +13,7 @@ body {
     --secondary-purple: #A4A4FF;
     --secondary-coral: #FF7F30;
     --gradient1: linear-gradient(45deg, #5EFCE8 0%, #736EFE 100%);
-    --gradient2: linear-gradient(45deg, #FFBE00 0%, #FF7F30 100%);
+    --gradient2: linear-gradient(45deg, #FFBE00 0%, #ff7f3075 100%);
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, #0000008c 0%, #00000042 100%), url('https://i.pinimg.com/736x/6c/35/80/6c35802ccb58526263d22cc9a8050993.jpg');
+    background: linear-gradient(180deg, #0000008c 0%, #c9adc9c5 100%), url('https://i.pinimg.com/736x/6c/35/80/6c35802ccb58526263d22cc9a8050993.jpg');
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
@@ -133,7 +133,7 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: var(--secondary-turquoise);
+    background-color:#736efe9c;
     justify-self: center;
     color: #fff;
     border-radius: 32px;
@@ -145,8 +145,8 @@ body {
 }
 
 .cta:hover {
-    background-color: var(--purple);
     transition: background .2s;
+    background-color: var(--purple);
     cursor: pointer
 }
 
@@ -237,8 +237,17 @@ body {
 .subtitle{
     color: var(--purple);
     font-size: 2.5rem;
-    margin-bottom: 1.5em;
+    margin-bottom: .7em;
 }
+
+.questions__p{
+    line-height: 1.7;
+    color: var(--color-titles);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
 .questions__container{
     display: grid;
     gap: 2em;
